@@ -19,7 +19,9 @@ curl -L https://github.com/railsware/cat-aws-ssm-param/releases/download/v1.0.0/
 ## Build for yourself. Question authority
 
 1. Clone this repo
-2. `make build-linux` (or `build-macos`)
+2. Install Go
+3. Install UPX: `brew install --build-from-source upx`
+4. `make build-linux` (or `build-macos`)
 
 ## Usage
 
